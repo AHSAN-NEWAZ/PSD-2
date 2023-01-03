@@ -1,0 +1,115 @@
+* common section css start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif; 
+}
+h1 h2{
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+li{
+    font-family: 'Open Sans', sans-serif;
+
+}
+img{
+    display:block;
+}
+section{
+background-color: brown;
+
+}
+.container{
+    
+    width:1170px;
+    margin:auto;
+}
+ul li{
+    list-style-type:none;
+    color:black;
+    
+    
+}
+a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color:orange;
+    
+    
+    
+}
+a:hover{
+    color:black;
+    background:pink;
+    transition: 0.4s;
+}
+
+.logo{
+    width:20%;
+    display:inline-block;
+    padding:10px 10px;
+
+}
+
+.menu{
+    width:75%;
+    display:inline-block;
+}
+
+.row{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+   
+}
+
+#header .top_bar .row{
+    justify-content: space-between;
+}
+#banner{
+    background-image: url(../img/banner.jpg);
+    height:600px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+#banner .container .inner_container{
+    width:50%;
+}
+
+#header .header_top_bar{
+    background-color: #0f2f44;
+}
+
+section{
+    background-color: #ffffff;
+}
+header_top_bar .container .row .top_bar_right{
+    width:50%;
+}
+
+
+header_top_bar .container .row .top_bar_left{
+    width:50%;
+}
+
+
+#banner .inner_container{
+    align-items: center;
+}
+
+
+#About .container .about_class_info{
+    width:50%;
+}
+
+#About .container .about_class_banner{
+    width:50%;
+    
+}
